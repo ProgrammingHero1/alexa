@@ -49,6 +49,10 @@ def run_alexa():
         talk(pyjokes.get_joke())
     elif 'date' in command:
         talk('Sorry vaiya, I am in another relation')
+    elif 'I love you' in command:
+        talk("I LOVE YOU BABY KISS ME")
+    elif 'Suck my dick':
+        talk("`ah your dick is so BIGGGGGGGGGGGGG")
     else:
         talk('I did not get it but I am going to search it for you')
         pywhatkit.search(command)
